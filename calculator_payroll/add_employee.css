@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.644) 20%, rgba(0, 255, 0, 0.354) 60%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(58, 111, 58, 0.228);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(16, 171, 49);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
