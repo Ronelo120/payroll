@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(46, 46, 46);
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(151, 136, 136, 0.327);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.payslip {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.payslip p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.payslip strong {
+    color: #333;
+}
