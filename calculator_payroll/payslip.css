@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(46, 46, 46);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(151, 136, 136, 0.327);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 180px; /* Add enough top padding to clear the header */
+}
+
+.header {
+    width: 100%; 
+    position: fixed; /* Make it fixed */
+    top: 0; /* Align it at the top */
+    left: 0;
+    background-color: #000; 
+    z-index: 10; 
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #08b198;
+    font-size: 50px;
+    margin: 0; /* Remove margin to avoid layout issues */
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjusted margin for better spacing */
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+table thead {
+    background-color: rgb(151, 136, 136);
+    color: white;
+    position: sticky; /* Stick the header */
+    top: 0; /* Always keep it at the top */
+    z-index: 5; /* Ensure it stays above table body */
+}
+
+table th, table td {
+    font-size: 15px;
+    padding: 10px; /* Increased padding for better spacing */
+    border: 1px solid #1ea02f;
+    word-wrap: break-word; 
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: rgba(151, 136, 136, 0.415);
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.last_button {
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    background-color: #000; 
+    z-index: 10; 
+    padding: 15px;
+    text-align: center;
+}
+
+.last_button a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+.last_button a:hover {
+    background-color: #444; 
+}
